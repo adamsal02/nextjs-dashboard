@@ -1,13 +1,11 @@
 import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
-import { lusitana } from '@/app/ui/font';
+//import { lusitana } from '@/app/ui/font';
 import Link from 'next/link';
 import Image from 'next/image';
 export default function Page() {
   return (
-    <p
-      className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
-    >
+    <p>
     <main className="flex min-h-screen flex-col p-6">
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
         <AcmeLogo /> 
